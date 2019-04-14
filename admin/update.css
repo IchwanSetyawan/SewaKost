@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -350px;    
+}
+
+.row{
+    width: 1050px;
+    background-color: darkslategrey;
+    margin: auto;        
+    height: 650px;    
+    
+}
+
+.header{
+    background-color:  rgb(235, 94, 13);
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+img{
+    margin: 30px 30px;
+    
+}
+.form table{
+    margin: auto;
+}
+
+.container .row input[type="text"],
+.container .row input[type="date"],
+.container .row input[type="number"]{
+    padding: 15px;
+    width: 300px;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.styled-select{
+    width: 300px;
+    padding-top: 45px;
+}
+
+.container .row .btn-login{
+    width: 332px;
+    padding: 20px;
+    margin-left: 665px;
+    margin-top: 10px;
+    background-color: rgb(230, 89, 7);
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+.container .row .btn-login:hover{
+    background-color:  rgb(252, 92, 0);
+}
+
+select option{
+    width: 300px;
+}
+.container .row{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.footer{
+    background-color:  rgb(235, 94, 13);
+    height: 50px;
+    margin-bottom: 10px;
+}
+.button {
+    margin-left: 520px;
+}

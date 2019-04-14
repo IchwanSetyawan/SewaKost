@@ -1,0 +1,87 @@
+body{
+    background-color: #eaeaea;
+    
+}
+
+.header{
+    text-align: center;
+    background-color:rgb(235, 94, 13); 
+    padding: 5px 0;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.header h1,h3{
+    text-shadow: 2px 2px 2px rgb(0,0,0,.5);
+}
+
+.body table{
+    margin: auto;
+    background-color: #fff;        
+}
+
+
+.body,.subHeader,.footer,.subFooter,.header{
+    width: 1240px;
+    margin: auto;
+}
+.body{
+    background-color: #fff;
+    width: 1240px;    
+}
+
+.body table tr td{
+    padding: 6px;
+    
+}
+.body table tr th{
+    background-color: #0e53b9;
+    color: #fff;
+    padding: 10px;
+}
+
+.subHeader{
+    background-color: rgb(170, 152, 70);
+    height: 10px;    
+    box-shadow: 0 -1px 9px rgb(0,0,0,.5);  
+    
+}
+
+.footer{
+    height: 50px;
+    background-color: rgb(235, 94, 13);    
+    box-shadow: 0px 15px 6px -7px rgb(0,0,0,.5);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.subFooter{
+    background-color: rgb(170, 152, 70);
+    height: 10px;
+}
+.footer p{
+    margin: auto;
+    color: #eaeaea;
+    text-align: center;
+    padding-top: 15px;   
+}
+
+.button ul li{
+    display: inline;
+    background-color: #0e53b9;
+    padding : 15px;  
+    box-shadow: 2px 2px 2px rgb(0,0,0,.5);  
+    
+}
+.button {
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 30px;
+    
+    
+}
+.button ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;        
+    
+}

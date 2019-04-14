@@ -1,0 +1,65 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/unsplas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -350px;
+    
+}
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px solid #aaaa;
+    box-shadow: 5px 5px 30px  rgba(255,255,255,.5);
+    
+}
+
+.header{
+    background-color:  rgb(235, 94, 13);
+    height: 60px;
+    border-bottom: 3px solid #0bccfc;    
+    
+    
+}
+
+.form{
+    background-color:rgba(0,0,0,.8);    
+    width: 100%;    
+    padding-top: 10px;
+    padding-bottom: 120px;
+    text-align: center;
+    color: #fff;
+}
+.form input[type="text"],
+.form input[type="password"]{
+    padding: 12px;
+    width: 300px;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    outline-color:  rgb(230, 89, 7);
+    
+}
+
+.form input[type="submit"]{
+    width: 75%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid  rgb(230, 89, 7);
+    background-color: transparent; 
+    color: #fff;   
+    
+}
+.form input[type="submit"]:hover{
+    background-color: rgb(255, 150, 89);
+    color: #fff;
+}
+.footer{
+    background-color: rgb(230, 89, 7);
+    height: 60px;
+}
+
+
