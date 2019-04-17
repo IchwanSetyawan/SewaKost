@@ -36,7 +36,7 @@
                      VALUES ('$data[tanggal]','$data[lama_nyewa]','$data[tarif]','$data[totalTarif]','$idKamar','$idPenghuni')";
 
         $commit = mysqli_query($koneksi, $register);
-        header("location: admin/viewData.php");
+        header("location: ./admin/viewData.php");
     }
 ?>
 <!DOCTYPE html>

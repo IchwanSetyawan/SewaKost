@@ -1,7 +1,7 @@
 <?php
     require_once('../connection.php');
 
-    $query = "SELECT penghuni.Nama_Penghuni, kamar.Jenis_Kost, registrasi.Tanggal_Daftar, registrasi.Lama_Menyewa, kamar.Tarif, registrasi.Total_Tarif
+    $query = "SELECT penghuni.Nama_Penghuni, kamar.Jenis_Kost, registrasi.Tanggal_Daftar, registrasi.No_Registrasi, registrasi.Lama_Menyewa, kamar.Tarif, registrasi.Total_Tarif
     FROM registrasi 
     JOIN kamar ON registrasi.No_Registrasi = kamar.Kode_KamarKost
     JOIN penghuni ON registrasi.No_Registrasi = penghuni.ID_Penghuni";
@@ -54,7 +54,7 @@
                             <td><?php echo $row['Total_Tarif'] ?></td>
                             <td>
                                 <a href="">Edit</a> | 
-                                <a href="">Delete</a>
+                                <a href="delete.php?delete=<?php echo $row['No_Registrasi'] ?>">Delete</a>
                             </td>                    
                         </tr>
                         

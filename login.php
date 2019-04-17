@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     
 </head>
@@ -34,7 +34,8 @@
                         <input type="text" name="username" placeholder="username">
                     </div>
                     <div class="form-input">
-                    <input type="password" name="password" placeholder="password">			</div>	
+                    <input type="password" name="password" placeholder="password"	
+                    </div>	
 
                 <input type="submit" name="submit" value="LOGIN" class="btn-login">	
             </form> <br>
